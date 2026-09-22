@@ -4,7 +4,8 @@ export type VirtueId =
   | 'caridade'
   | 'coragem'
   | 'oracao'
-  | 'perdao';
+  | 'perdao'
+  | 'alegria';
 
 export interface Virtue {
   id: VirtueId;
@@ -24,7 +25,7 @@ export interface Scene {
   speaker?: string;
   text: string;
   /** key into the chapter's backgrounds palette, falls back to theme background */
-  backgroundTone?: 'dawn' | 'night' | 'chapel' | 'forest' | 'town';
+  backgroundTone?: 'dawn' | 'night' | 'chapel' | 'forest' | 'town' | 'hospital';
   choices?: SceneChoice[];
   /** used when a scene has no choices: tap to continue to this scene id */
   next?: string;

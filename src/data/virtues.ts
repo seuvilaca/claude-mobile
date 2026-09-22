@@ -37,6 +37,12 @@ export const virtues: Record<VirtueId, Virtue> = {
     icon: '✨',
     description: 'Perdoar como fomos perdoados.',
   },
+  alegria: {
+    id: 'alegria',
+    name: 'Alegria',
+    icon: '😊',
+    description: 'Buscar a felicidade em Deus, não em si mesmo.',
+  },
 };
 
 export const virtueList = Object.values(virtues);

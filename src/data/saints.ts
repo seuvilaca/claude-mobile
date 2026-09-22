@@ -2,13 +2,24 @@ import type { Saint } from '../engine/types';
 
 export const saints: Saint[] = [
   {
+    id: 'carlo-acutis',
+    name: 'São Carlo Acutis',
+    title: 'O Influencer de Deus',
+    years: '1991 – 2006',
+    summary:
+      'Adolescente milanês, gênio da informática, dedicou seus talentos à Eucaristia e à caridade antes de morrer aos 15 anos.',
+    status: 'available',
+    accentColor: '#3E7CB1',
+    chapterId: 'carlo-acutis',
+  },
+  {
     id: 'francisco-de-assis',
     name: 'São Francisco de Assis',
     title: 'O Pobre de Assis',
     years: '1181 – 1226',
     summary:
       'Filho de um rico mercador, Francisco abandonou riqueza e conforto para viver o Evangelho na pobreza total.',
-    status: 'available',
+    status: 'comingSoon',
     accentColor: '#8C6B3F',
     chapterId: 'francisco-de-assis',
   },

@@ -1,7 +1,9 @@
 import type { Chapter } from '../../engine/types';
+import { carloAcutis } from './carloAcutis';
 import { franciscoDeAssis } from './franciscoDeAssis';
 
 export const chapters: Record<string, Chapter> = {
+  [carloAcutis.id]: carloAcutis,
   [franciscoDeAssis.id]: franciscoDeAssis,
 };
 
